@@ -14,5 +14,5 @@ sudo apt install -y ansible git
 
 ## Usage
 ```bash
-ansible-playbook -i inventory.yml -K wsl.yml
+ansible-playbook -i inventory.yml --ask-become-pass wsl.yml
 ```
