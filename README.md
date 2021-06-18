@@ -2,7 +2,7 @@
 
 ## Description
 
-Ansible Project for configuring and maintaining an Unbuntu WSL installation on Windows.
+Ansible Project for configuring and maintaining an Ubuntu WSL installation on Windows.
 
 ## Usage
 
