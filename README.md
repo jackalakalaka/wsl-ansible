@@ -1,4 +1,4 @@
-# WSL Ansible
+# Ansible: Ubuntu WSL
 
 ## Description
 Ansible Project for configuring and maintaining an Ubuntu WSL installation on Windows.
