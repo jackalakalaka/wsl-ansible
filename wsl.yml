@@ -16,6 +16,7 @@
         
     - name: Install install-script packages
       command: curl -o- {{ install_scripts }} | bash
+      warn: false
       
     - name: Install nvm packages (e.g. node)
       command: nvm install node
