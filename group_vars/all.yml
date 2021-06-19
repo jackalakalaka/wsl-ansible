@@ -1,5 +1,6 @@
 ---
 apt_pkgs:
+  - ansible-lint
   - fontconfig
   - gcc
   - git
