@@ -9,10 +9,16 @@
         state: latest
         update_cache: yes
 
-    - name: Install Packages
+    - name: Install apt packages
       apt:
         name: "{{ apt_pkgs }}"
         state: latest
+        
+    - name: Install install-script packages
+      command: curl -o- {{ install_scripts }} | bash
+      
+    - name: Install nvm packages (e.g. node)
+      command: nvm install node
 
     - name: Check for TFSwitch
       stat:
